@@ -1,0 +1,33 @@
+
+@media(max-width:800px){
+    .title{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+        
+    }
+}
+@media(max-width:400px){
+   .tit7{
+       display:flex;
+       
+       justify-content: center;
+   }
+   .title{
+       color:white
+   }
+   .abr{
+       display:flex;
+       
+       justify-content: center;
+   }
+}
+.wrap{
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.mainwrap{
+    flex: 1 1 auto;
+}
